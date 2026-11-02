@@ -31,8 +31,10 @@ Each script is standalone. Open a terminal and run:
 9fb49df Initial commit
 ```
 
-Each commit does one thing and its message says exactly what changed. A hiring manager would see someone who works in small, deliberate steps and leaves a history others can follow.
+If I saw this history, I would think the person is structured and organized. Each commit is one clear step with a message that says exactly what changed, so you can follow the order the project was built in.
 
-**2.** Before, I edited a working script directly and hoped I didn't break it. Now I commit whenever something works, so I can always go back to a known-good version, and I keep each change small enough to describe in one message.
+**2.** Before this module, I fixed bugs one by one and used Ctrl+Z if I broke something, which only works while the file is open and I remember what I changed. Now I would commit after each fix that works, so every working version is saved and I can go back to it anytime. That way I can try changes without being afraid of losing code that already worked.
 
-**3.** I would add `.ipynb_checkpoints/`, the auto-save folders Jupyter creates. They are temporary files tied to my own machine and are not part of the actual work.
+**3.** I would add data/*.csv. I like trading and download stock price files for practice, and those files are big and can be downloaded again, so they don’t need to be on GitHub.
+
+**AI disclosure:** I used Claude to guide me through the lab. It gave me directions and proper structure.
